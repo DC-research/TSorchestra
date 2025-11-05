@@ -9,11 +9,11 @@
 #SBATCH --constraint="scratch"
 #SBATCH --gpus-per-node=1
 #SBATCH --gpu-bind=closest
-#SBATCH --account=bdem-delta-gpu  # TODO: Remove before pushing to new repo  
+#SBATCH --account=  # TODO: Enter your SLURM account 
 #SBATCH --time=24:00:00
 #SBATCH --output=output/logs/%x/out/%A/%a.out
 #SBATCH --error=output/logs/%x/err/%A/%a.err
-#SBATCH --mail-user=mpgee@usc.edu  # TODO: Remove before pushing to new repo
+#SBATCH --mail-user=  # TODO: Enter your email address 
 #SBATCH --mail-type=BEGIN,END,FAIL
 
 mkdir -p ./output/logs
