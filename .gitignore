@@ -5,7 +5,7 @@
 /data/
 
 # Ignore data directory (if it's a symbolic link)
-data  
+/data  
 output/
 __pycache__/
 *.pyc

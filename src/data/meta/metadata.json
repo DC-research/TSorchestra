@@ -1,0 +1,552 @@
+{
+    "LOOP_SEATTLE/5T": {
+        "freq": "5T",
+        "domain": "Transport",
+        "_total_univariate_series": 323,
+        "target_dim": 1,
+        "_min_series_length": 105120,
+        "sum_series_length": 33953760,
+        "prediction_length": 48,
+        "windows": 20
+    },
+    "LOOP_SEATTLE/D": {
+        "freq": "D",
+        "domain": "Transport",
+        "_total_univariate_series": 323,
+        "target_dim": 1,
+        "_min_series_length": 365,
+        "sum_series_length": 117895,
+        "prediction_length": 30,
+        "windows": 2
+    },
+    "LOOP_SEATTLE/H": {
+        "freq": "H",
+        "domain": "Transport",
+        "_total_univariate_series": 323,
+        "target_dim": 1,
+        "_min_series_length": 8760,
+        "sum_series_length": 2829480,
+        "prediction_length": 48,
+        "windows": 19
+    },
+    "M_DENSE/D": {
+        "freq": "D",
+        "domain": "Transport",
+        "_total_univariate_series": 30,
+        "target_dim": 1,
+        "_min_series_length": 730,
+        "sum_series_length": 21900,
+        "prediction_length": 30,
+        "windows": 3
+    },
+    "M_DENSE/H": {
+        "freq": "H",
+        "domain": "Transport",
+        "_total_univariate_series": 30,
+        "target_dim": 1,
+        "_min_series_length": 17520,
+        "sum_series_length": 525600,
+        "prediction_length": 48,
+        "windows": 20
+    },
+    "SZ_TAXI/15T": {
+        "freq": "15T",
+        "domain": "Transport",
+        "_total_univariate_series": 156,
+        "target_dim": 1,
+        "_min_series_length": 2976,
+        "sum_series_length": 464256,
+        "prediction_length": 48,
+        "windows": 7
+    },
+    "SZ_TAXI/H": {
+        "freq": "H",
+        "domain": "Transport",
+        "_total_univariate_series": 156,
+        "target_dim": 1,
+        "_min_series_length": 744,
+        "sum_series_length": 116064,
+        "prediction_length": 48,
+        "windows": 2
+    },
+    "bitbrains_fast_storage/5T": {
+        "freq": "5T",
+        "domain": "Web/CloudOps",
+        "_total_univariate_series": 2500,
+        "target_dim": 2,
+        "_min_series_length": 8640,
+        "sum_series_length": 21600000,
+        "prediction_length": 48,
+        "windows": 18
+    },
+    "bitbrains_fast_storage/H": {
+        "freq": "H",
+        "domain": "Web/CloudOps",
+        "_total_univariate_series": 2500,
+        "target_dim": 2,
+        "_min_series_length": 721,
+        "sum_series_length": 1802500,
+        "prediction_length": 48,
+        "windows": 2
+    },
+    "bitbrains_rnd/5T": {
+        "freq": "5T",
+        "domain": "Web/CloudOps",
+        "_total_univariate_series": 1000,
+        "target_dim": 2,
+        "_min_series_length": 8640,
+        "sum_series_length": 8640000,
+        "prediction_length": 48,
+        "windows": 18
+    },
+    "bitbrains_rnd/H": {
+        "freq": "H",
+        "domain": "Web/CloudOps",
+        "_total_univariate_series": 1000,
+        "target_dim": 2,
+        "_min_series_length": 720,
+        "sum_series_length": 720000,
+        "prediction_length": 48,
+        "windows": 2
+    },
+    "bizitobs_application": {
+        "freq": "10S",
+        "domain": "Web/CloudOps",
+        "_total_univariate_series": 2,
+        "target_dim": 2,
+        "_min_series_length": 8834,
+        "sum_series_length": 17668,
+        "prediction_length": 60,
+        "windows": 15
+    },
+    "bizitobs_l2c/5T": {
+        "freq": "5T",
+        "domain": "Web/CloudOps",
+        "_total_univariate_series": 7,
+        "target_dim": 7,
+        "_min_series_length": 31968,
+        "sum_series_length": 223776,
+        "prediction_length": 48,
+        "windows": 20
+    },
+    "bizitobs_l2c/H": {
+        "freq": "H",
+        "domain": "Web/CloudOps",
+        "_total_univariate_series": 7,
+        "target_dim": 7,
+        "_min_series_length": 2664,
+        "sum_series_length": 18648,
+        "prediction_length": 48,
+        "windows": 6
+    },
+    "bizitobs_service": {
+        "freq": "10S",
+        "domain": "Web/CloudOps",
+        "_total_univariate_series": 42,
+        "target_dim": 2,
+        "_min_series_length": 8835,
+        "sum_series_length": 371070,
+        "prediction_length": 60,
+        "windows": 15
+    },
+    "car_parts_with_missing": {
+        "freq": "M",
+        "domain": "Sales",
+        "_total_univariate_series": 2674,
+        "target_dim": 1,
+        "_min_series_length": 51,
+        "sum_series_length": 136374,
+        "prediction_length": 12,
+        "windows": 1
+    },
+    "covid_deaths": {
+        "freq": "D",
+        "domain": "Healthcare",
+        "_total_univariate_series": 266,
+        "target_dim": 1,
+        "_min_series_length": 212,
+        "sum_series_length": 56392,
+        "prediction_length": 30,
+        "windows": 1
+    },
+    "electricity/15T": {
+        "freq": "15T",
+        "domain": "Energy",
+        "_total_univariate_series": 370,
+        "target_dim": 1,
+        "_min_series_length": 140256,
+        "sum_series_length": 51894720,
+        "prediction_length": 48,
+        "windows": 20
+    },
+    "electricity/D": {
+        "freq": "D",
+        "domain": "Energy",
+        "_total_univariate_series": 370,
+        "target_dim": 1,
+        "_min_series_length": 1461,
+        "sum_series_length": 540570,
+        "prediction_length": 30,
+        "windows": 5
+    },
+    "electricity/H": {
+        "freq": "H",
+        "domain": "Energy",
+        "_total_univariate_series": 370,
+        "target_dim": 1,
+        "_min_series_length": 35064,
+        "sum_series_length": 12973680,
+        "prediction_length": 48,
+        "windows": 20
+    },
+    "electricity/W": {
+        "freq": "W-FRI",
+        "domain": "Energy",
+        "_total_univariate_series": 370,
+        "target_dim": 1,
+        "_min_series_length": 208,
+        "sum_series_length": 76960,
+        "prediction_length": 8,
+        "windows": 3
+    },
+    "ett1/15T": {
+        "freq": "15T",
+        "domain": "Energy",
+        "_total_univariate_series": 7,
+        "target_dim": 7,
+        "_min_series_length": 69680,
+        "sum_series_length": 487760,
+        "prediction_length": 48,
+        "windows": 20
+    },
+    "ett1/D": {
+        "freq": "D",
+        "domain": "Energy",
+        "_total_univariate_series": 7,
+        "target_dim": 7,
+        "_min_series_length": 725,
+        "sum_series_length": 5075,
+        "prediction_length": 30,
+        "windows": 3
+    },
+    "ett1/H": {
+        "freq": "H",
+        "domain": "Energy",
+        "_total_univariate_series": 7,
+        "target_dim": 7,
+        "_min_series_length": 17420,
+        "sum_series_length": 121940,
+        "prediction_length": 48,
+        "windows": 20
+    },
+    "ett1/W": {
+        "freq": "W-THU",
+        "domain": "Energy",
+        "_total_univariate_series": 7,
+        "target_dim": 7,
+        "_min_series_length": 103,
+        "sum_series_length": 721,
+        "prediction_length": 8,
+        "windows": 2
+    },
+    "ett2/15T": {
+        "freq": "15T",
+        "domain": "Energy",
+        "_total_univariate_series": 7,
+        "target_dim": 7,
+        "_min_series_length": 69680,
+        "sum_series_length": 487760,
+        "prediction_length": 48,
+        "windows": 20
+    },
+    "ett2/D": {
+        "freq": "D",
+        "domain": "Energy",
+        "_total_univariate_series": 7,
+        "target_dim": 7,
+        "_min_series_length": 725,
+        "sum_series_length": 5075,
+        "prediction_length": 30,
+        "windows": 3
+    },
+    "ett2/H": {
+        "freq": "H",
+        "domain": "Energy",
+        "_total_univariate_series": 7,
+        "target_dim": 7,
+        "_min_series_length": 17420,
+        "sum_series_length": 121940,
+        "prediction_length": 48,
+        "windows": 20
+    },
+    "ett2/W": {
+        "freq": "W-THU",
+        "domain": "Energy",
+        "_total_univariate_series": 7,
+        "target_dim": 7,
+        "_min_series_length": 103,
+        "sum_series_length": 721,
+        "prediction_length": 8,
+        "windows": 2
+    },
+    "hierarchical_sales/D": {
+        "freq": "D",
+        "domain": "Sales",
+        "_total_univariate_series": 118,
+        "target_dim": 1,
+        "_min_series_length": 1825,
+        "sum_series_length": 215350,
+        "prediction_length": 30,
+        "windows": 7
+    },
+    "hierarchical_sales/W": {
+        "freq": "W-WED",
+        "domain": "Sales",
+        "_total_univariate_series": 118,
+        "target_dim": 1,
+        "_min_series_length": 260,
+        "sum_series_length": 30680,
+        "prediction_length": 8,
+        "windows": 4
+    },
+    "hospital": {
+        "freq": "M",
+        "domain": "Healthcare",
+        "_total_univariate_series": 767,
+        "target_dim": 1,
+        "_min_series_length": 84,
+        "sum_series_length": 64428,
+        "prediction_length": 12,
+        "windows": 1
+    },
+    "jena_weather/10T": {
+        "freq": "10T",
+        "domain": "Nature",
+        "_total_univariate_series": 21,
+        "target_dim": 21,
+        "_min_series_length": 52704,
+        "sum_series_length": 1106784,
+        "prediction_length": 48,
+        "windows": 20
+    },
+    "jena_weather/D": {
+        "freq": "D",
+        "domain": "Nature",
+        "_total_univariate_series": 21,
+        "target_dim": 21,
+        "_min_series_length": 366,
+        "sum_series_length": 7686,
+        "prediction_length": 30,
+        "windows": 2
+    },
+    "jena_weather/H": {
+        "freq": "H",
+        "domain": "Nature",
+        "_total_univariate_series": 21,
+        "target_dim": 21,
+        "_min_series_length": 8784,
+        "sum_series_length": 184464,
+        "prediction_length": 48,
+        "windows": 19
+    },
+    "kdd_cup_2018_with_missing/D": {
+        "freq": "D",
+        "domain": "Nature",
+        "_total_univariate_series": 270,
+        "target_dim": 1,
+        "_min_series_length": 396,
+        "sum_series_length": 122791,
+        "prediction_length": 30,
+        "windows": 2
+    },
+    "kdd_cup_2018_with_missing/H": {
+        "freq": "H",
+        "domain": "Nature",
+        "_total_univariate_series": 270,
+        "target_dim": 1,
+        "_min_series_length": 9504,
+        "sum_series_length": 2942364,
+        "prediction_length": 48,
+        "windows": 20
+    },
+    "m4_daily": {
+        "freq": "D",
+        "domain": "Econ/Fin",
+        "_total_univariate_series": 4227,
+        "target_dim": 1,
+        "_min_series_length": 107,
+        "sum_series_length": 10023836,
+        "prediction_length": 14,
+        "windows": 1
+    },
+    "m4_hourly": {
+        "freq": "H",
+        "domain": "Econ/Fin",
+        "_total_univariate_series": 414,
+        "target_dim": 1,
+        "_min_series_length": 748,
+        "sum_series_length": 373372,
+        "prediction_length": 48,
+        "windows": 1
+    },
+    "m4_monthly": {
+        "freq": "M",
+        "domain": "Econ/Fin",
+        "_total_univariate_series": 48000,
+        "target_dim": 1,
+        "_min_series_length": 60,
+        "sum_series_length": 11246411,
+        "prediction_length": 18,
+        "windows": 1
+    },
+    "m4_quarterly": {
+        "freq": "Q-DEC",
+        "domain": "Econ/Fin",
+        "_total_univariate_series": 24000,
+        "target_dim": 1,
+        "_min_series_length": 24,
+        "sum_series_length": 2406108,
+        "prediction_length": 8,
+        "windows": 1
+    },
+    "m4_weekly": {
+        "freq": "W-SUN",
+        "domain": "Econ/Fin",
+        "_total_univariate_series": 359,
+        "target_dim": 1,
+        "_min_series_length": 93,
+        "sum_series_length": 371579,
+        "prediction_length": 13,
+        "windows": 1
+    },
+    "m4_yearly": {
+        "freq": "A-DEC",
+        "domain": "Econ/Fin",
+        "_total_univariate_series": 22974,
+        "target_dim": 1,
+        "_min_series_length": 19,
+        "sum_series_length": 845109,
+        "prediction_length": 6,
+        "windows": 1
+    },
+    "restaurant": {
+        "freq": "D",
+        "domain": "Sales",
+        "_total_univariate_series": 807,
+        "target_dim": 1,
+        "_min_series_length": 67,
+        "sum_series_length": 289303,
+        "prediction_length": 30,
+        "windows": 1
+    },
+    "saugeenday/D": {
+        "freq": "D",
+        "domain": "Nature",
+        "_total_univariate_series": 1,
+        "target_dim": 1,
+        "_min_series_length": 23741,
+        "sum_series_length": 23741,
+        "prediction_length": 30,
+        "windows": 20
+    },
+    "saugeenday/M": {
+        "freq": "M",
+        "domain": "Nature",
+        "_total_univariate_series": 1,
+        "target_dim": 1,
+        "_min_series_length": 780,
+        "sum_series_length": 780,
+        "prediction_length": 12,
+        "windows": 7
+    },
+    "saugeenday/W": {
+        "freq": "W-THU",
+        "domain": "Nature",
+        "_total_univariate_series": 1,
+        "target_dim": 1,
+        "_min_series_length": 3391,
+        "sum_series_length": 3391,
+        "prediction_length": 8,
+        "windows": 20
+    },
+    "solar/10T": {
+        "freq": "10T",
+        "domain": "Energy",
+        "_total_univariate_series": 137,
+        "target_dim": 1,
+        "_min_series_length": 52560,
+        "sum_series_length": 7200720,
+        "prediction_length": 48,
+        "windows": 20
+    },
+    "solar/D": {
+        "freq": "D",
+        "domain": "Energy",
+        "_total_univariate_series": 137,
+        "target_dim": 1,
+        "_min_series_length": 365,
+        "sum_series_length": 50005,
+        "prediction_length": 30,
+        "windows": 2
+    },
+    "solar/H": {
+        "freq": "H",
+        "domain": "Energy",
+        "_total_univariate_series": 137,
+        "target_dim": 1,
+        "_min_series_length": 8760,
+        "sum_series_length": 1200120,
+        "prediction_length": 48,
+        "windows": 19
+    },
+    "solar/W": {
+        "freq": "W-FRI",
+        "domain": "Energy",
+        "_total_univariate_series": 137,
+        "target_dim": 1,
+        "_min_series_length": 52,
+        "sum_series_length": 7124,
+        "prediction_length": 8,
+        "windows": 1
+    },
+    "temperature_rain_with_missing": {
+        "freq": "D",
+        "domain": "Nature",
+        "_total_univariate_series": 32072,
+        "target_dim": 1,
+        "_min_series_length": 725,
+        "sum_series_length": 23252200,
+        "prediction_length": 30,
+        "windows": 3
+    },
+    "us_births/D": {
+        "freq": "D",
+        "domain": "Healthcare",
+        "_total_univariate_series": 1,
+        "target_dim": 1,
+        "_min_series_length": 7305,
+        "sum_series_length": 7305,
+        "prediction_length": 30,
+        "windows": 20
+    },
+    "us_births/M": {
+        "freq": "M",
+        "domain": "Healthcare",
+        "_total_univariate_series": 1,
+        "target_dim": 1,
+        "_min_series_length": 240,
+        "sum_series_length": 240,
+        "prediction_length": 12,
+        "windows": 2
+    },
+    "us_births/W": {
+        "freq": "W-TUE",
+        "domain": "Healthcare",
+        "_total_univariate_series": 1,
+        "target_dim": 1,
+        "_min_series_length": 1043,
+        "sum_series_length": 1043,
+        "prediction_length": 8,
+        "windows": 14
+    }
+}
