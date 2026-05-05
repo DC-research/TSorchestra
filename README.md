@@ -36,3 +36,14 @@ Run our evaluation script to reproduce our results:
 chmod +x ./cli/eval.sh
 ./cli/eval.sh
 ```
+
+## Cite
+
+```
+@article{cao2025conversational,
+  title={Conversational Time Series Foundation Models: Towards Explainable and Effective Forecasting},
+  author={Cao, Defu and Gee, Michael and Liu, Jinbo and Wang, Hengxuan and Yang, Wei and Wang, Rui and Liu, Yan},
+  journal={arXiv preprint arXiv:2512.16022},
+  year={2025}
+}
+```
